@@ -57,6 +57,11 @@
         "value": "",
         "required": true
       },
+      "MUSIC_BOT_NAME": {
+        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "value": "YummiMusic",
+        "required": true
+      },
       "SUPPORT_GROUP": {
         "description": "SUPPORT_GROUP",
         "value": "",
