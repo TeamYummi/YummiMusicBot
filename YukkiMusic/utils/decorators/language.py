@@ -1,16 +1,16 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamYummi@Github, < https://github.com/TeamYummi >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamYummi/YummiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYummi/YummiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
 
 from strings import get_string
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (get_lang, is_commanddelete_on,
+from YummiMusic.misc import SUDOERS
+from YummiMusic.utils.database import (get_lang, is_commanddelete_on,
                                        is_maintenance)
 
 

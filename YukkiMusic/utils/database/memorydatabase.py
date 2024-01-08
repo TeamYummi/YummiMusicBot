@@ -1,16 +1,16 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamYummi@Github, < https://github.com/TeamYummi >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamYummi/YummiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYummi/YummiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
 
 import config
 from config import PRIVATE_BOT_MODE
-from YukkiMusic.core.mongo import mongodb
+from YummiMusic.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
@@ -19,7 +19,7 @@ playmodedb = mongodb.playmode
 playtypedb = mongodb.playtypedb
 langdb = mongodb.language
 authdb = mongodb.adminauth
-videodb = mongodb.yukkivideocalls
+videodb = mongodb.Yummivideocalls
 onoffdb = mongodb.onoffper
 suggdb = mongodb.suggestion
 autoenddb = mongodb.autoend

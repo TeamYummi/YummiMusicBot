@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamYummi@Github, < https://github.com/TeamYummi >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamYummi/YummiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYummi/YummiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -11,9 +11,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
 from strings import get_string
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (get_authuser_names, get_cmode,
+from YummiMusic import app
+from YummiMusic.misc import SUDOERS
+from YummiMusic.utils.database import (get_authuser_names, get_cmode,
                                        get_lang, is_active_chat,
                                        is_commanddelete_on,
                                        is_maintenance,

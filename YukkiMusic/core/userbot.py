@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamYummi@Github, < https://github.com/TeamYummi >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamYummi/YummiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYummi/YummiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -58,8 +58,8 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("TeamYM")
-                await self.one.join_chat("TheYukki")
-                await self.one.join_chat("YukkiSupport")
+                await self.one.join_chat("TheYummi")
+                await self.one.join_chat("YummiSupport")
             except:
                 pass
             assistants.append(1)
@@ -89,8 +89,8 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("TeamYM")
-                await self.two.join_chat("TheYukki")
-                await self.two.join_chat("YukkiSupport")
+                await self.two.join_chat("TheYummi")
+                await self.two.join_chat("YummiSupport")
             except:
                 pass
             assistants.append(2)
@@ -120,8 +120,8 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("TeamYM")
-                await self.three.join_chat("TheYukki")
-                await self.three.join_chat("YukkiSupport")
+                await self.three.join_chat("TheYummi")
+                await self.three.join_chat("YummiSupport")
             except:
                 pass
             assistants.append(3)
@@ -151,8 +151,8 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("TeamYM")
-                await self.four.join_chat("TheYukki")
-                await self.four.join_chat("YukkiSupport")
+                await self.four.join_chat("TheYummi")
+                await self.four.join_chat("YummiSupport")
             except:
                 pass
             assistants.append(4)
@@ -182,8 +182,8 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("TeamYM")
-                await self.five.join_chat("TheYukki")
-                await self.five.join_chat("YukkiSupport")
+                await self.five.join_chat("TheYummi")
+                await self.five.join_chat("YummiSupport")
             except:
                 pass
             assistants.append(5)

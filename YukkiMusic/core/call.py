@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamYummi@Github, < https://github.com/TeamYummi >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamYummi/YummiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYummi/YummiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -27,9 +27,9 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from strings import get_string
-from YukkiMusic import LOGGER, YouTube, app
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import (add_active_chat,
+from YummiMusic import LOGGER, YouTube, app
+from YummiMusic.misc import db
+from YummiMusic.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        get_assistant,
                                        get_audio_bitrate, get_lang,
@@ -39,11 +39,11 @@ from YukkiMusic.utils.database import (add_active_chat,
                                        remove_active_chat,
                                        remove_active_video_chat,
                                        set_loop)
-from YukkiMusic.utils.exceptions import AssistantErr
-from YukkiMusic.utils.inline.play import (stream_markup,
+from YummiMusic.utils.exceptions import AssistantErr
+from YummiMusic.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from YukkiMusic.utils.stream.autoclear import auto_clean
-from YukkiMusic.utils.thumbnails import gen_thumb
+from YummiMusic.utils.stream.autoclear import auto_clean
+from YummiMusic.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
@@ -623,4 +623,4 @@ class Call(PyTgCalls):
                 autoend[chat_id] = {}
 
 
-Yukki = Call()
+Yummi = Call()

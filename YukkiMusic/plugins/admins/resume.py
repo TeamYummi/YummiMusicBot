@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamYummi@Github, < https://github.com/TeamYummi >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamYummi/YummiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYummi/YummiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -12,10 +12,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils.database import is_music_playing, music_on
-from YukkiMusic.utils.decorators import AdminRightsCheck
+from YummiMusic import app
+from YummiMusic.core.call import Yummi
+from YummiMusic.utils.database import is_music_playing, music_on
+from YummiMusic.utils.decorators import AdminRightsCheck
 
 # Commands
 RESUME_COMMAND = get_command("RESUME_COMMAND")
@@ -34,7 +34,7 @@ async def resume_com(cli, message: Message, _, chat_id):
     if await is_music_playing(chat_id):
         return await message.reply_text(_["admin_3"])
     await music_on(chat_id)
-    await Yukki.resume_stream(chat_id)
+    await Yummi.resume_stream(chat_id)
     await message.reply_text(
         _["admin_4"].format(message.from_user.mention)
     )
