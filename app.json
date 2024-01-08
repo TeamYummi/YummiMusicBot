@@ -1,13 +1,13 @@
 {
-    "name": "Yummi Music Bot",
-    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "name": "𝙳𝙰𝚇𝚇 𝙼𝚄𝚂𝙸𝙲",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://telegra.ph/file/dbb3222d0fd3712e2a0e4.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Yummi",
-    "YummiMusicBot",
+    "DAXX",
+    "MusicBot",
     "telegram-bot",
     "pyrogram"
     ],
@@ -22,52 +22,43 @@
         "value": "",
         "required": true
       },
-      "START_IMG_URL": {
-        "description": "START_IMG_URL",
-        "value": "",
-        "required": true
-      },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yummi's database for you.",
-        "value": "",
-        "required": true
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "The user id of user whom you would like to add as OWNER.",
         "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
         "value": "",
         "required": true
       },
-      "SUPPORT_GROUP": {
-        "description": "SUPPORT_GROUP",
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "",
         "required": true
-      },
-      "SUPPORT_CHANNEL": {
-        "description": "SUPPORT_CHANNEL",
-        "value": "",
-        "required": true
-      },
-      "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "",
-        "required": true
-      },
-      "buildpacks": [
+      }
+    },
+    "buildpacks": [
           {
               "url": "heroku/python"
           },
@@ -79,4 +70,4 @@
           }
       ],
       "stack": "container"
-    }
+}
